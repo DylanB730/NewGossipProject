@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
 
     #filtres pr les actions show/edit/update/destroy
-    before_action :set_post, only: [:show, :edit, :update, :destroy ]
+    before_action :set_post, only: [:show, :edit, :update, :destroy]
 
     # GET /posts
     def index
